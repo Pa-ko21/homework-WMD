@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Products | The Style Galaxy</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="index.html" class="logo">
+        <img src="logo.jpg" alt="The Style Galaxy Logo" />
+        The Style Galaxy
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about us.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+      </ul>
+      <div class="cart-icon" onclick="toggleCart()">
+        🛒 <span id="cart-count">0</span>
+      </div>
+    </nav>
+    <section class="products">
+      <h1>Products</h1>
+      <a href="products.html" class="shop-now-btn">Shop Now</a>
+    </section>
+  </header>
+
+  <main>
+    <h1 class="section-title">Our Products</h1>
+    <div class="product-grid">
+      <!-- Product 1 -->
+      <div class="product-card">
+        <img src="Products/jersey 01.jpg" alt="Stylish Jersey" />
+        <div class="category">Clothing</div>
+        <div class="product-name">Stylish Jersey</div>
+        <div class="price">P350.00</div>
+        <div class="sizes">
+          <button class="size-btn">S</button>
+          <button class="size-btn">M</button>
+          <button class="size-btn">L</button>
+        </div>
+        <!-- Replace color swatches with Next/Back buttons 
+  <div class="image-switch-buttons">
+    <button onclick="prevJersey()">⬅️ Back</button>
+    <button onclick="nextJersey()">Next ➡️</button>
+  </div> -->
+        <button onclick="addToCart('Stylish Jersey', 350.00)">Add to Cart</button>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="product-card">
+        <img src="Products/jersey 02.jpg" alt="Stylish Jersey" />
+        <div class="category">Clothing</div>
+        <div class="product-name">Stylish Jersey</div>
+        <div class="price">P350.00</div>
+        <div class="sizes">
+          <button class="size-btn">S</button>
+          <button class="size-btn">M</button>
+          <button class="size-btn">L</button>
+        </div>
+        <!-- Replace color swatches with Next/Back buttons 
+  <div class="image-switch-buttons">
+    <button onclick="prevJersey()">⬅️ Back</button>
+    <button onclick="nextJersey()">Next ➡️</button>
+  </div> -->
+        <button onclick="addToCart('Stylish Jersey', 350.00)">Add to Cart</button>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="product-card">
+        <img src="Products/jersey 03.jpg" alt="Stylish Jersey" />
+        <div class="category">Clothing</div>
+        <div class="product-name">Stylish Jersey</div>
+        <div class="price">P350.00</div>
+        <div class="sizes">
+          <button class="size-btn">S</button>
+          <button class="size-btn">M</button>
+          <button class="size-btn">L</button>
+        </div>
+        <!-- Replace color swatches with Next/Back buttons 
+  <div class="image-switch-buttons">
+    <button onclick="prevJersey()">⬅️ Back</button>
+    <button onclick="nextJersey()">Next ➡️</button>
+  </div> -->
+        <button onclick="addToCart('Stylish Jersey', 350.00)">Add to Cart</button>
+      </div>
+
+<!-- Product 4 -->
+<div class="product-card">
+  <img src="Products/jersey 04.jpg" alt="Stylish Jersey" />
+  <div class="category">Clothing</div>
+  <div class="product-name">Stylish Jersey</div>
+  <div class="price">P350.00</div>
+  <div class="sizes">
+    <button class="size-btn">S</button>
+    <button class="size-btn">M</button>
+    <button class="size-btn">L</button>
+  </div>
+  <!-- Replace color swatches with Next/Back buttons 
+<div class="image-switch-buttons">
+<button onclick="prevJersey()">⬅️ Back</button>
+<button onclick="nextJersey()">Next ➡️</button>
+</div> -->
+  <button onclick="addToCart('Stylish Jersey', 350.00)">Add to Cart</button>
+</div>
+
+      <!-- Product 5 -->
+      <div class="product-card">
+        <img src="Products/dress 01.jpg" alt="Dresses" />
+        <div class="category">Clothing</div>
+        <div class="product-name">Dress</div>
+        <div class="price">P250.00</div>
+        <div class="sizes">
+          <button class="size-btn">S</button>
+          <button class="size-btn">M</button>
+          <button class="size-btn">L</button>
+          <!--<button class="size-btn">One Size</button>-->
+        </div>
+        <!-- Replace color swatches with Next/Back buttons 
+<div class="image-switch-buttons">
+<button onclick="prevJersey()">⬅️ Back</button>
+<button onclick="nextJersey()">Next ➡️</button>
+</div> -->
+        <button onclick="addToCart('Dress', 250.00)">Add to Cart</button>
+      </div>
+
+      <!-- Product 6 -->
+      <div class="product-card">
+        <img src="Products/dress 02.jpg" alt="Dresses" />
+        <div class="category">Clothing</div>
+        <div class="product-name">Dress</div>
+        <div class="price">P250.00</div>
+        <div class="sizes">
+          <button class="size-btn">S</button>
+          <button class="size-btn">M</button>
+          <button class="size-btn">L</button>
+          <!--<button class="size-btn">One Size</button>-->
+        </div>
+        <!-- Replace color swatches with Next/Back buttons 
+<div class="image-switch-buttons">
+<button onclick="prevJersey()">⬅️ Back</button>
+<button onclick="nextJersey()">Next ➡️</button>
+</div> -->
+        <button onclick="addToCart('Dress', 250.00)">Add to Cart</button>
+      </div>
+
+      <!-- Product 7 -->
+      <div class="product-card">
+        <img src="Products/dress 04.jpg" alt="Dresses" />
+        <div class="category">Clothing</div>
+        <div class="product-name">Dress</div>
+        <div class="price">P250.00</div>
+        <div class="sizes">
+          <button class="size-btn">S</button>
+          <button class="size-btn">M</button>
+          <button class="size-btn">L</button>
+          <!--<button class="size-btn">One Size</button>-->
+        </div>
+        <!-- Replace color swatches with Next/Back buttons 
+<div class="image-switch-buttons">
+<button onclick="prevJersey()">⬅️ Back</button>
+<button onclick="nextJersey()">Next ➡️</button>
+</div> -->
+        <button onclick="addToCart('Dress', 250.00)">Add to Cart</button>
+      </div>
+
+<!-- Product 8 -->
+<div class="product-card">
+  <img src="Products/dress 05.jpg" alt="Dresses" />
+  <div class="category">Clothing</div>
+  <div class="product-name">Dress</div>
+  <div class="price">P250.00</div>
+  <div class="sizes">
+    <button class="size-btn">S</button>
+    <button class="size-btn">M</button>
+    <button class="size-btn">L</button>
+    <!--<button class="size-btn">One Size</button>-->
+  </div>
+  <!-- Replace color swatches with Next/Back buttons 
+<div class="image-switch-buttons">
+<button onclick="prevJersey()">⬅️ Back</button>
+<button onclick="nextJersey()">Next ➡️</button>
+</div> -->
+  <button onclick="addToCart('Dress', 250.00)">Add to Cart</button>
+</div>
+
+<!-- Product 9 -->
+<div class="product-card">
+  <img src="Products/hat (pink).jpg" alt="hats" />
+  <div class="category">Clothing</div>
+  <div class="product-name">Hat</div>
+  <div class="price">P200.00</div>
+  <div class="sizes">
+   <button class="size-btn">One Size</button>
+  </div>
+  <!-- Replace color swatches with Next/Back buttons 
+<div class="image-switch-buttons">
+<button onclick="prevJersey()">⬅️ Back</button>
+<button onclick="nextJersey()">Next ➡️</button>
+</div> -->
+  <button onclick="addToCart('Hat', 200.00)">Add to Cart</button>
+</div>
+
+<!-- Product 10 -->
+<div class="product-card">
+  <img src="Products/hat (black).jpg" alt="hats" />
+  <div class="category">Clothing</div>
+  <div class="product-name">Hat</div>
+  <div class="price">P200.00</div>
+  <div class="sizes">
+   <button class="size-btn">One Size</button>
+  </div>
+  <!-- Replace color swatches with Next/Back buttons 
+<div class="image-switch-buttons">
+<button onclick="prevJersey()">⬅️ Back</button>
+<button onclick="nextJersey()">Next ➡️</button>
+</div> -->
+  <button onclick="addToCart('Hat', 200.00)">Add to Cart</button>
+</div>
+
+<!-- Product 11 -->
+<div class="product-card">
+  <img src="Products/hat (blue).jpg" alt="hats" />
+  <div class="category">Clothing</div>
+  <div class="product-name">Hat</div>
+  <div class="price">P200.00</div>
+  <div class="sizes">
+   <button class="size-btn">One Size</button>
+  </div>
+  <!-- Replace color swatches with Next/Back buttons 
+<div class="image-switch-buttons">
+<button onclick="prevJersey()">⬅️ Back</button>
+<button onclick="nextJersey()">Next ➡️</button>
+</div> -->
+  <button onclick="addToCart('Hat', 200.00)">Add to Cart</button>
+</div>
+
+<!-- Product 12 -->
+<div class="product-card">
+  <img src="Products/hat (khakhi).jpg" alt="hats" />
+  <div class="category">Clothing</div>
+  <div class="product-name">Hat</div>
+  <div class="price">P200.00</div>
+  <div class="sizes">
+   <button class="size-btn">One Size</button>
+  </div>
+  <!-- Replace color swatches with Next/Back buttons 
+<div class="image-switch-buttons">
+<button onclick="prevJersey()">⬅️ Back</button>
+<button onclick="nextJersey()">Next ➡️</button>
+</div> -->
+  <button onclick="addToCart('Hat', 200.00)">Add to Cart</button>
+</div>
+
+<!-- Product 13 -->
+<div class="product-card">
+  <img src="Products/stanly.jpg" alt="bottles" />
+  <div class="category">Bottles</div>
+  <div class="product-name">Stanely</div>
+  <div class="price">P150.00</div>
+  <div class="sizes">
+   <button class="size-btn">One Size</button>
+  </div>
+  <!-- Replace color swatches with Next/Back buttons 
+<div class="image-switch-buttons">
+<button onclick="prevJersey()">⬅️ Back</button>
+<button onclick="nextJersey()">Next ➡️</button>
+</div> -->
+  <button onclick="addToCart('Stanely', 150.00)">Add to Cart</button>
+</div>
+
+<!-- Product 14 -->
+<div class="product-card">
+  <img src="Products/scrunches.jpg" alt="Scrunchy" />
+  <div class="category">Clothing</div>
+  <div class="product-name">Scrunchy</div>
+  <div class="price">P15.00</div>
+  <div class="sizes">
+   <button class="size-btn">All Sizes</button>
+  </div>
+  <!-- Replace color swatches with Next/Back buttons 
+<div class="image-switch-buttons">
+<button onclick="prevJersey()">⬅️ Back</button>
+<button onclick="nextJersey()">Next ➡️</button>
+</div> -->
+  <button onclick="addToCart('Scrunchy', 15.00)">Add to Cart</button>
+</div>
+
+<!-- Product 15 -->
+<div class="product-card">
+  <img src="Products/nike tshirt(2).jpg" alt="t-shirt" />
+  <div class="category">Clothing</div>
+  <div class="product-name">Nike T-shirt</div>
+  <div class="price">P100.00</div>
+  <div class="sizes">
+   <button class="size-btn">S</button>
+   <button class="size-btn">M</button>
+   <button class="size-btn">L</button>
+  </div>
+  <!-- Replace color swatches with Next/Back buttons 
+<div class="image-switch-buttons">
+<button onclick="prevJersey()">⬅️ Back</button>
+<button onclick="nextJersey()">Next ➡️</button>
+</div> -->
+  <button onclick="addToCart('Nike t-shirt', 100.00)">Add to Cart</button>
+</div>
+
+<!-- Product 16 -->
+<div class="product-card">
+  <img src="Products/lechesa (red).jpg" alt="Shoes" />
+  <div class="category">Shoes</div>
+  <div class="product-name">Converse</div>
+  <div class="price">P900.00</div>
+  <div class="sizes">
+   <button class="size-btn">All Sizes</button>
+  </div>
+  <!-- Replace color swatches with Next/Back buttons 
+<div class="image-switch-buttons">
+<button onclick="prevJersey()">⬅️ Back</button>
+<button onclick="nextJersey()">Next ➡️</button>
+</div> -->
+  <button onclick="addToCart('Converse', 900.00)">Add to Cart</button>
+</div>
+
+<!-- Product 17 -->
+<div class="product-card">
+  <img src="Products/conver(black).jpg" alt="Shoes" />
+  <div class="category">Shoes</div>
+  <div class="product-name">Converse</div>
+  <div class="price">P1100.00</div>
+  <div class="sizes">
+   <button class="size-btn">All Sizes</button>
+  </div>
+  <!-- Replace color swatches with Next/Back buttons 
+<div class="image-switch-buttons">
+<button onclick="prevJersey()">⬅️ Back</button>
+<button onclick="nextJersey()">Next ➡️</button>
+</div> -->
+  <button onclick="addToCart('Converse', 1100.00)">Add to Cart</button>
+</div>
+
+<!-- Product 18 -->
+<div class="product-card">
+  <img src="Products/converse (black).jpg" alt="Shoes" />
+  <div class="category">Shoes</div>
+  <div class="product-name">Converse</div>
+  <div class="price">P1300.00</div>
+  <div class="sizes">
+   <button class="size-btn">All Sizes</button>
+  </div>
+  <!-- Replace color swatches with Next/Back buttons 
+<div class="image-switch-buttons">
+<button onclick="prevJersey()">⬅️ Back</button>
+<button onclick="nextJersey()">Next ➡️</button>
+</div> -->
+  <button onclick="addToCart('Converse', 1300.00)">Add to Cart</button>
+</div>
+
+<!-- Product 19 -->
+<div class="product-card">
+  <img src="Products/converse (white).jpg" alt="Shoes" />
+  <div class="category">Shoes</div>
+  <div class="product-name">Converse</div>
+  <div class="price">P1300.00</div>
+  <div class="sizes">
+   <button class="size-btn">All Sizes</button>
+  </div>
+  <!-- Replace color swatches with Next/Back buttons 
+<div class="image-switch-buttons">
+<button onclick="prevJersey()">⬅️ Back</button>
+<button onclick="nextJersey()">Next ➡️</button>
+</div> -->
+  <button onclick="addToCart('Converse', 1300.00)">Add to Cart</button>
+</div>
+
+<!-- Product 20 -->
+<div class="product-card">
+  <img src="Products/airforce 1(4).jpg" alt="Shoes" />
+  <div class="category">Shoes</div>
+  <div class="product-name">Airforce</div>
+  <div class="price">P900.00</div>
+  <div class="sizes">
+   <button class="size-btn">All Sizes</button>
+  </div>
+  <!-- Replace color swatches with Next/Back buttons 
+<div class="image-switch-buttons">
+<button onclick="prevJersey()">⬅️ Back</button>
+<button onclick="nextJersey()">Next ➡️</button>
+</div> -->
+  <button onclick="addToCart('Airforce', 900.00)">Add to Cart</button>
+</div>
+
+<!-- Product 21 -->
+<div class="product-card">
+  <img src="Products/jordan 4(blackred).jpg" alt="Shoes" />
+  <div class="category">Shoes</div>
+  <div class="product-name">Jordan4</div>
+  <div class="price">P1100.00</div>
+  <div class="sizes">
+   <button class="size-btn">All Sizes</button>
+  </div>
+  <!-- Replace color swatches with Next/Back buttons 
+<div class="image-switch-buttons">
+<button onclick="prevJersey()">⬅️ Back</button>
+<button onclick="nextJersey()">Next ➡️</button>
+</div> -->
+  <button onclick="addToCart('Jordan4', 1100.00)">Add to Cart</button>
+</div>
+
+<!-- Product 22 -->
+<div class="product-card">
+  <img src="Products/Jordan 1(2).jpg" alt="Shoes" />
+  <div class="category">Shoes</div>
+  <div class="product-name">Jordan1</div>
+  <div class="price">P1100.00</div>
+  <div class="sizes">
+   <button class="size-btn">All Sizes</button>
+  </div>
+  <!-- Replace color swatches with Next/Back buttons 
+<div class="image-switch-buttons">
+<button onclick="prevJersey()">⬅️ Back</button>
+<button onclick="nextJersey()">Next ➡️</button>
+</div> -->
+  <button onclick="addToCart('Jordan1', 1100.00)">Add to Cart</button>
+</div>
+
+<!-- Product 23 -->
+<div class="product-card">
+  <img src="Products/Air(black).jpg" alt="Shoes" />
+  <div class="category">Shoes</div>
+  <div class="product-name">Air</div>
+  <div class="price">P1200.00</div>
+  <div class="sizes">
+   <button class="size-btn">All Sizes</button>
+  </div>
+  <!-- Replace color swatches with Next/Back buttons 
+<div class="image-switch-buttons">
+<button onclick="prevJersey()">⬅️ Back</button>
+<button onclick="nextJersey()">Next ➡️</button>
+</div> -->
+  <button onclick="addToCart('Air', 1200.00)">Add to Cart</button>
+</div>
+
+<!-- Product 24 -->
+<div class="product-card">
+  <img src="Products/Air(white).jpg" alt="Shoes" />
+  <div class="category">Shoes</div>
+  <div class="product-name">Air</div>
+  <div class="price">P1200.00</div>
+  <div class="sizes">
+   <button class="size-btn">All Sizes</button>
+  </div>
+  <!-- Replace color swatches with Next/Back buttons 
+<div class="image-switch-buttons">
+<button onclick="prevJersey()">⬅️ Back</button>
+<button onclick="nextJersey()">Next ➡️</button>
+</div> -->
+  <button onclick="addToCart('Air', 1200.00)">Add to Cart</button>
+</div>
+
+<!-- Product 25 -->
+<div class="product-card">
+  <img src="Products/essential hoodies.jpg" alt="essentials" />
+  <div class="category">Clothing</div>
+  <div class="product-name">Essential Hoodies</div>
+  <div class="price">P450.00</div>
+  <div class="sizes">
+   <button class="size-btn">S</button>
+   <button class="size-btn">M</button>
+   <button class="size-btn">L</button>
+  </div>
+  <!-- Replace color swatches with Next/Back buttons 
+<div class="image-switch-buttons">
+<button onclick="prevJersey()">⬅️ Back</button>
+<button onclick="nextJersey()">Next ➡️</button>
+</div> -->
+  <button onclick="addToCart('Essential Hoodies', 450.00)">Add to Cart</button>
+</div>
+
+<!-- Product 26 -->
+<div class="product-card">
+  <img src="Products/essential pants.jpg" alt="essentials" />
+  <div class="category">Clothing</div>
+  <div class="product-name">Essential Pants</div>
+  <div class="price">P350.00</div>
+  <div class="sizes">
+   <button class="size-btn">S</button>
+   <button class="size-btn">M</button>
+   <button class="size-btn">L</button>
+  </div>
+  <!-- Replace color swatches with Next/Back buttons 
+<div class="image-switch-buttons">
+<button onclick="prevJersey()">⬅️ Back</button>
+<button onclick="nextJersey()">Next ➡️</button>
+</div> -->
+  <button onclick="addToCart('Essential Pants', 350.00)">Add to Cart</button>
+</div>
+  
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-about">
+        <h3>About Us</h3>
+        <p>The Style Galaxy is your one-stop shop for trendy and affordable fashion. We bring the stars to your wardrobe!</p>
+      </div>
+      <div class="footer-links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="about us.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+      </div>
+      <div class="footer-social">
+        <h3>Follow Us</h3>
+        <div class="social-icons">
+          <a href="https://facebook.com" target="_blank">Facebook</a>
+          <a href="https://twitter.com" target="_blank">Twitter</a>
+          <a href="https://instagram.com" target="_blank">Instagram</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 The Style Galaxy. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Cart Modal -->
+  <div id="cart-modal" class="cart-modal hidden">
+    <h3>Your Cart</h3>
+    <ul id="cart-items"></ul>
+    <p>Total: P<span id="cart-total">0.00</span></p>
+    <button onclick="checkout()">Checkout</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

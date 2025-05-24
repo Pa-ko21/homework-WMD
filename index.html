@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DarkShop | Glow Edition</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="index.html" class="logo">
+        <img src="logo.jpg" alt="The Style Galaxy Logo" />
+        The Style Galaxy
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about us.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+      </ul>
+      <div class="cart-icon" onclick="toggleCart()">
+        🛒 <span id="cart-count">0</span>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <h1>Where Style Reaches The Stars</h1>
+      <p>Discover a universe of trendy clothes and stylish essentials that add spark to your everyday. <br>
+        At The Style Galaxy, we believe everyone deserves to stand out-without breaking the bank. <br>
+      Whether you`re upgrading yout vibe or hunting for the perfect gift, you`ll find it here.</p>
+      <a href="products.html" class="shop-now-btn">Shop Now</a>
+    </section>
+  </header>
+<h1>What`s New/Trending</h1>
+  <!-- Slideshow Wrapper -->
+<div class="wrapper">
+  <div class="inner" style="--quantity: 5;">
+    <div class="card" style="--index: 0; --color-card: 142, 249, 252;">
+      <div class="img" style="background-image: url('whats new/jersey 01.jpg');"></div>
+    </div>
+    <div class="card" style="--index: 1; --color-card: 142, 252, 204;">
+      <div class="img" style="background-image: url('whats new/jersey 02.jpg');"></div>
+    </div>
+    <div class="card" style="--index: 2; --color-card: 142, 252, 157;">
+      <div class="img" style="background-image: url('whats new/essential hoodies.jpg');"></div>
+    </div>
+    <div class="card" style="--index: 3; --color-card: 252, 208, 142;">
+      <div class="img" style="background-image: url('whats new/essential pants.jpg');"></div>
+    </div>
+    <div class="card" style="--index: 4; --color-card: 204, 142, 252;">
+      <div class="img" style="background-image: url('whats new/Air(black).jpg');"></div>
+    </div>
+  </div>
+</div>
+
+<section class="about-video-section">
+  <div class="video-box">
+    <video controls>
+      <source src="homevid.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+  <div class="video-text">
+    <h2>"Discover who we are in 40 seconds"</h2>
+    <p>
+      Welcome to The Style Galaxy — your ultimate destination for everything trendy and stylish.
+      What began as a passion for fashion and innovation has grown into a vibrant hub for modern style. 
+      The founders of this exciting brand are proud to bring you the latest in trendy clothing, 
+      standout accessories, and must-have gadgets — all carefully curated to help you express your unique vibe.
+      Whether you’re searching for the perfect outfit, a bold accessory, 
+      or the coolest tech to match your lifestyle, we've got you covered. 
+      Our mission is simple: to blend fashion and functionality in the most stylish way possible.
+    </p>
+  </div>
+</section>
+
+  <main>
+    <h2 class="section-title">🔥 Featured Products</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <div class="slideshow">
+          <img src="Products/jordan 4(black).jpg" alt="Jordan 4 - Image 1" />
+          <img src="Products/lechesa (red).jpg " alt="lechesa Image 2" />
+          <img src="Products/converse (black).jpg " alt="converse - Image 3" />
+        </div>
+        <h3>Shoes</h3>
+        <p>P1100.00</p>
+        <button onclick="addToCart('Shoes', 1100.00)">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <div class="slideshow">
+          <img src="Products/dress 01.jpg" alt="Product 1 - Image 1" />
+          <img src="Products/dress 03.jpg" alt="Product 1 - Image 2" />
+          <img src="Products/dress 05.jpg" alt="Product 1 - Image 3" />
+        </div>
+        <h3>Dresses</h3>
+        <p>P200.00</p>
+        <button onclick="addToCart('Dresses', 200.00)">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <div class="slideshow">
+          <img src="Products/essential hoodies.jpg" alt="Product 1 - Image 1" />
+          <img src="Products/essential pants.jpg" alt="Product 1 - Image 2" />
+          <img src="Products/Nike tshirt.jpg" alt="Product 1 - Image 3" />
+          
+        </div>
+        <h3>Clothes</h3>
+        <p>P500.00</p>
+        <button onclick="addToCart('Clothes', 200.00)">Add to Cart</button>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-about">
+        <h3>About Us</h3>
+        <p>The Style Galaxy is your one-stop shop for trendy and affordable fashion. We bring the stars to your wardrobe!</p>
+      </div>
+      <div class="footer-links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="about us.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+      </div>
+      <div class="footer-social">
+        <h3>Follow Us</h3>
+        <div class="social-icons">
+          <a href="https://facebook.com" target="_blank">Facebook</a>
+          <a href="https://twitter.com" target="_blank">Twitter</a>
+          <a href="https://instagram.com" target="_blank">Instagram</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 The Style Galaxy. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Cart Modal -->
+  <div id="cart-modal" class="cart-modal hidden">
+    <h3>Your Cart</h3>
+    <ul id="cart-items"></ul>
+    <p>Total: $<span id="cart-total">0.00</span></p>
+    <button onclick="checkout()">Checkout</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
